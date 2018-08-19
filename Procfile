@@ -1,0 +1,1 @@
+web: python test-bot24.py
