@@ -34,7 +34,7 @@ except ValueError as e:
 PORT = int(os.environ.get('PORT', '5000'))
 updater.start_webhook(listen="0.0.0.0", port=PORT, url_path=tokenbot)
 
-updater.bot.set_webhook("https://test-bot24.herokuapp.com/" + tokenbot)
+updater.bot.set_webhook("https:///morning-spire-21855.herokuapp.com/" + tokenbot)
 #--------------------------------
 
 #handling command
